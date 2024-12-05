@@ -21,5 +21,11 @@ for _ in range(40):
 
 print('part 1 :', len(line))
 
+for _ in range(10):
+    line = next_line(line)
+
+print('part 2 :', len(line))    
+
+
 
     
